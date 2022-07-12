@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+.top-page-header {
+  width: 100vw;
+  display: flex;
+  background-color: antiquewhite;
+}
+
+.header-logo {
+  padding-left: 2vw;
+}
+
+
+.sushi-comp-icon {
+  text-decoration: none;
+  width: 10vw;
+  margin-right: 20vw;
+  color: #333333;
+  font-size: 24px;
+}
+
+.nav {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 1vh 0;
+}
+
+.lists-left {
+  display: flex;
+  min-width: 200px;
+  align-items: center;
+}
+
+.category-list {
+  text-decoration: none;
+  margin-right: 3vw;
+  color: #333333;
+}
+
+.lists-right {
+  display: flex;
+  list-style: none;
+  padding-right: 2vw;
+  align-items: flex-end;
+}
+
+.logout {
+  text-decoration: none;
+  color: #333333;
+}
+
+.login {
+  text-decoration: none;
+  line-height: 32px;
+  margin-right: 3vw;
+  color: #333333;
+}
+
+.sign-up {
+  text-decoration: none;
+  color: #333333;
+}
