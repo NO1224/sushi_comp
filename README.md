@@ -70,7 +70,7 @@ SUSHI COMP
 | --------------- | ------- | ----------- |
 | sushi_neta_name | string  | null: false | 
 | explanation     | text    | null: false |
-| category        | integer | null: false |
+| category_id     | integer | null: false |
 | season_month    | integer | null: false |
 
 
@@ -121,9 +121,9 @@ SUSHI COMP
 
 ## servicesテーブル
 
-| Column          | Type    | Options     |
-| ----------------| ------- | ----------- |
-| service_content | integer | null: false |
+| Column             | Type    | Options     |
+| ------------------ | ------- | ----------- |
+| service_content_id | integer | null: false |
 
 
 ### Association

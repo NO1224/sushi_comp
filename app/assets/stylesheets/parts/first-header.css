@@ -9,11 +9,13 @@
 }
 
 .header-logo {
+
   padding-left: 2vw;
 }
 
 
 .sushi-comp-icon {
+  display: block;
   text-decoration: none;
   width: 10vw;
   margin-right: 20vw;

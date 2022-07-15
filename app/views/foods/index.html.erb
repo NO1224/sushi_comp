@@ -1,0 +1,30 @@
+<%= render "parts/first-header" %>
+<div class="second-header-wrapper">
+  <div class="second-header-translucent">
+    <div class="title-box">
+      <h2 class="menu-title">
+        寿司ネタ一覧
+      </h2>
+    </div>
+  </div>
+</div>
+<div class="food-collection-reference">
+  <div class="foods-frame">
+    <div class="foods-image">
+    <%= image_tag 'sushineta/イカ.png', size: "150x120" %>
+    </div>
+    <div class="foods-contents">
+      <div class="foods-title">
+        イカ
+      </div>
+      <div class="foods-count">
+        ①
+      </div>
+    </div>
+  </div>
+</div>
+<div class="food-footer">
+  <div class="return-btn-box">
+  <%= link_to "戻る", "/", class: "return-btn" %>
+  </div>
+</div>

@@ -1,0 +1,89 @@
+.second-header-wrapper {
+  width: 100vw;
+  height: 120px;
+  background-image: url(second-foods-header.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.second-header-translucent{
+  width: 100vw;
+  height: 120px;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-box {
+  width: 200px;
+  height: 50%;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+}
+
+.menu-title {
+ font-size: 20px;
+ text-align: center;
+ line-height: 60px;
+ font-weight: bold;
+}
+
+.food-collection-reference {
+  width: 100vw;
+  height: 90vh;
+  border: thick double gray;
+  box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  overflow: auto;
+}
+
+.foods-frame {
+  width: 150px;
+  height: 150px;
+  margin: 20px 0 0 60px;
+}
+
+.foods-image {
+  width: 100%;
+  height: 120px;
+}
+
+.foods-contents {
+  width: 100%;
+  height: 30px;
+  display: flex;
+}
+
+.foods-title {
+  width: 110px;
+  height: 100%;
+  padding: 5px 0 0 10px;
+}
+
+.foods-count {
+  width: 40px;
+  height: 100%;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.food-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.return-btn-box {
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: rgba(133, 215, 74, 0.8);
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+.return-btn {
+  text-decoration: none;
+  color: #333333;
+}
