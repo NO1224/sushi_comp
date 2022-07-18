@@ -1,46 +1,60 @@
 Food.create!(
   [
     {
-      sushi_neta_name: 'マグロ（赤身）',
-      explanation: 'テスト１',
-      category_id: 1,
+      sushi_neta_name: '甘エビ',
+      explanation: 'テスト７',
+      category_id: 4,
+      season_month: 1,
+      image: 'sushineta/amaebi.png'
+    },
+    {
+      sushi_neta_name: '穴子',
+      explanation: 'テスト８',
+      category_id: 4,
+      season_month: 7,
+      image: 'sushineta/anago.png'
+    },
+    {
+      sushi_neta_name: 'ビントロ',
+      explanation: 'テスト９',
+      category_id: 6,
       season_month: 12,
-      image: 'sushineta/赤身マグロ.png'
+      image: 'sushineta/bintoro.png'
     },
     {
-      sushi_neta_name: 'サーモン',
-      explanation: 'テスト２',
-      category_id: 1,
-      season_month: 10,
-      image: 'sushineta/サーモン.png'
+      sushi_neta_name: 'エビ',
+      explanation: 'テスト１０',
+      category_id: 4,
+      season_month: 11,
+      image: 'sushineta/ebi.png'
     },
     {
-      sushi_neta_name: 'イカ',
-      explanation: 'テスト３',
+      sushi_neta_name: 'エビ天',
+      explanation: 'テスト１１',
       category_id: 6,
-      season_month: 8,
-      image: 'sushineta/イカ.png'
+      season_month: 11,
+      image: 'sushineta/ebiten.png'
     },
     {
-      sushi_neta_name: 'タイ',
-      explanation: 'テスト４',
-      category_id: 2,
-      season_month: 10,
-      image: 'sushineta/タイ.png'
+      sushi_neta_name: 'ホッキ貝',
+      explanation: 'テスト１２',
+      category_id: 5,
+      season_month: 2,
+      image: 'sushineta/hokkigai.png'
     },
     {
-      sushi_neta_name: 'えんがわ',
-      explanation: 'テスト５',
-      category_id: 2,
-      season_month: 1,
-      image: 'sushineta/えんがわ.png'
-    },
-    {
-      sushi_neta_name: 'タコ',
-      explanation: 'テスト６',
+      sushi_neta_name: 'いなり寿司',
+      explanation: 'テスト１２',
       category_id: 6,
-      season_month: 1,
-      image: 'sushineta/タコ.png'
+      season_month: 2,
+      image: 'sushineta/inarizushi.png'
+    },
+    {
+      sushi_neta_name: '数の子',
+      explanation: 'テスト１３',
+      category_id: 6,
+      season_month: 4,
+      image: 'sushineta/kazunoko.png'
     }
   ]
 )

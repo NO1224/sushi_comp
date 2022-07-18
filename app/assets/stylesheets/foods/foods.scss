@@ -37,6 +37,7 @@
   box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
   overflow: auto;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .food-second-main {
@@ -67,7 +68,7 @@
 .foods-title {
   width: 160px;
   height: 100%;
-  padding: 5px 0 0 10px;
+  padding: 5px 0 0 25px;
 }
 
 .foods-count {
@@ -98,7 +99,7 @@
   color: #333333;
 }
 
-.food-title {
+.food-name {
   width: 100%;
   height: 10%;
   padding-left: 10px;
