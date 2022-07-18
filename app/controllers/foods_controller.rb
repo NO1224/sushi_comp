@@ -3,4 +3,8 @@ class FoodsController < ApplicationController
     @foods = Food.all
     #@foods = Dir.glob("*.PNG", base: "app/assets/images/sushineta")
   end
+
+  def show
+    @food = Food.find(params[:id])
+  end
 end

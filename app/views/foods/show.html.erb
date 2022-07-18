@@ -1,0 +1,40 @@
+<div class="main">
+  <%= render "parts/first-header" %>
+  <div class="second-header-food-wrapper">
+    <div class="second-header-translucent">
+      <div class="title-box">
+        <h2 class="menu-title">
+          寿司ネタ一覧
+        </h2>
+      </div>
+    </div>
+  </div>
+  <div class="food-second-main">
+    <div class="food-title">
+      <%= @food.sushi_neta_name %>
+    </div>
+    <div class="food-detail">
+      <div class="food-detail-content">
+        <div class="food-explanation">
+          <%= @food.explanation%>
+        </div>
+        <div class="food-category">
+          <span class="category-decoration">種類<br></span>
+          <%= @food.category.name %>
+        </div>
+        <div class="food-season">
+          <span class="season-decoration">旬の時期<br></span>
+          <%= @food.season_month%>月
+        </div>
+      </div>
+      <div class="food-detail-image">
+      <%= image_tag "#{@food.image}" %>
+      </div>
+    </div>
+  </div>
+  <div class="food-footer">
+    <div class="return-btn-box">
+    <%= link_to "戻る", foods_path, class: "return-btn" %>
+    </div>
+  </div>
+</div>

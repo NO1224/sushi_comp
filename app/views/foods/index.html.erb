@@ -9,11 +9,11 @@
       </div>
     </div>
   </div>
-  <div class="food-collection-reference">
+  <div class="food-main">
   <% @foods.each do |food|%>
     <div class="foods-frame">
       <div class="foods-image">
-      <%=link_to image_tag("#{food.image}", size: "150x120") %>
+      <%=link_to image_tag("#{food.image}", size: "150x120"), food_path(food.id)%>
       </div>
       <div class="foods-contents">
         <div class="foods-title">

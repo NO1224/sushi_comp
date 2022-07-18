@@ -7,7 +7,7 @@
 }
 
 .second-header-translucent{
-  width: 100vw;
+  width: 100%;
   height: 120px;
   background-color: rgba(255, 255, 255, 0.5);
   display: flex;
@@ -29,7 +29,7 @@
  font-weight: bold;
 }
 
-.food-collection-reference {
+.food-main {
   width: 100%;
   height: 90vh;
   padding: 20px;
@@ -37,6 +37,14 @@
   box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
   overflow: auto;
   display: flex;
+}
+
+.food-second-main {
+  width: 100%;
+  height: 90vh;
+  padding: 20px;
+  border: thick double gray;
+  box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 .foods-frame {
@@ -88,4 +96,64 @@
 .return-btn {
   text-decoration: none;
   color: #333333;
+}
+
+.food-title {
+  width: 100%;
+  height: 10%;
+  padding-left: 10px;
+  font-size: 36px;
+  font-family: serif;
+  border-bottom: 1px solid gray;
+}
+
+.food-detail {
+  width: 100%;
+  height: 80%;
+  margin-top: 20px;
+  position: relative;
+}
+
+.food-detail-content {
+  width: 60%;
+  height: 100%;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #EEE;
+}
+
+.food-explanation {
+  height: 40%;
+}
+
+.category-decoration {
+  font-size: 32px;
+  padding: 5px;
+  margin-top: 10px;
+  color: #FFF;
+  -webkit-text-stroke: 0.5px #000;
+  background-color: lightgreen;
+}
+
+.season-decoration {
+  font-size: 32px;
+  padding: 5px;
+  margin-top: 10px;
+  color: #FFF;
+  -webkit-text-stroke: 1px #000;
+  background-color: blue;
+}
+
+.food-detail-image {
+  width: 40%;
+  height: 60%;
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.food-detail-image img {
+  width: 100%;
+  height: 100%;
 }

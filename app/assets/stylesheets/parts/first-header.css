@@ -9,7 +9,6 @@
 }
 
 .header-logo {
-
   padding-left: 2vw;
 }
 
@@ -49,6 +48,12 @@
   list-style: none;
   padding-right: 2vw;
   align-items: flex-end;
+}
+
+.mypage {
+  text-decoration: none;
+  margin-right: 3vw;
+  color: #333333;
 }
 
 .logout {
