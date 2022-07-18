@@ -1,0 +1,32 @@
+<div class="main">
+  <%= render "parts/first-header" %>
+  <div class="second-header-news-wrapper">
+    <div class="second-header-translucent">
+      <div class="title-box">
+        <h2 class="menu-title">
+          お知らせ一覧
+        </h2>
+      </div>
+    </div>
+  </div>
+  <div class="news-wrapper">
+    <div class="news-left-content">
+      <div class="news-main">
+        <div class="news-date">
+          <%= @news.created_at.strftime('%Y/%m/%d %H:%M:%S') %>
+        </div>
+        <div class="news-title">
+          <%= @news.title %>
+        </div>
+        <div class="news-content">
+          <%= @news.content%>
+        </div>
+      </div>
+    </div>
+    <div class="news-right-content">
+      <div class="archive">
+        アーカイブ表示予定
+      </div>
+    </div>
+  </div>
+</div>

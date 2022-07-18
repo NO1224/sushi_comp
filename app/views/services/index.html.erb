@@ -1,0 +1,35 @@
+<div class="main">
+  <%= render "parts/first-header" %>
+  <div class="second-header-service-wrapper">
+    <div class="second-header-translucent">
+      <div class="title-box">
+        <h2 class="menu-title">
+          サービス一覧
+        </h2>
+      </div>
+    </div>
+  </div>
+  <div class="services-wrapper">
+    <div class="service-condition-menu">
+      <div class="service-condition-btn">
+        全サービス一覧
+      </div>
+      <div class="service-condition-btn">
+        カウント達成条件一覧
+      </div>
+      <div class="service-condition-btn">
+        種類達成条件一覧
+      </div>
+    </div>
+    <div class="service-content-display">
+    <% @services.each do |service|%>
+      <div class="service-contents">
+        <span class="material-symbols-outlined">block</span>
+        <%= service.condition %>
+        <span>：</span>
+        <%= service.service%>
+      </div>
+    <% end %>
+    </div>
+  </div>
+</div>

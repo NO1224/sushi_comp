@@ -5,42 +5,42 @@ Food.create!(
       explanation: 'テスト１',
       category_id: 1,
       season_month: 12,
-      image: './app/assets/images/sushineta/赤身マグロ.png'
+      image: 'sushineta/赤身マグロ.png'
     },
     {
       sushi_neta_name: 'サーモン',
       explanation: 'テスト２',
       category_id: 1,
       season_month: 10,
-      image: './app/assets/images/sushineta/サーモン.png'
+      image: 'sushineta/サーモン.png'
     },
     {
       sushi_neta_name: 'イカ',
       explanation: 'テスト３',
       category_id: 6,
       season_month: 8,
-      image: './app/assets/images/sushineta/イカ.png'
+      image: 'sushineta/イカ.png'
     },
     {
       sushi_neta_name: 'タイ',
       explanation: 'テスト４',
       category_id: 2,
       season_month: 10,
-      image: './app/assets/images/sushineta/タイ.png'
+      image: 'sushineta/タイ.png'
     },
     {
       sushi_neta_name: 'えんがわ',
       explanation: 'テスト５',
       category_id: 2,
       season_month: 1,
-      image: './app/assets/images/sushineta/えんがわ.png'
+      image: 'sushineta/えんがわ.png'
     },
     {
       sushi_neta_name: 'タコ',
       explanation: 'テスト６',
       category_id: 6,
       season_month: 1,
-      image: './app/assets/images/sushineta/タコ.png'
+      image: 'sushineta/タコ.png'
     }
   ]
 )
