@@ -76,6 +76,7 @@ SUSHI COMP
 
 ### Association
 - has_many :grade_foods
+- has_many :grades, through: :grade_foods
 - has_many :comments
 - has_many :stars
 <br><br>
@@ -86,7 +87,6 @@ SUSHI COMP
 | ------ | ---------- | ------------------------------ |
 | grade  | references | null: false, foreign_key: true |
 | user   | references | null: false, foreign_key: true |
-| count  | integer    | null: false                    |
 
 
 ### Association
@@ -99,11 +99,13 @@ SUSHI COMP
 | Column | Type       | Options                        |
 | ------ | ---------- | ------------------------------ |
 | user   | references | null: false, foreign_key: true |
+| count  | integer    | null: false                    |
 
 
 ### Association
 - has_many :grade_services
 - has_many :grade_foods
+- has_many :foods, through: :grade_foods
 <br><br>
 
 ## grade_servicesテーブル

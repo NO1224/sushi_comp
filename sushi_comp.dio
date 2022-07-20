@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="GDNJdXhx1sa_c5Vge2bc" name="ER図">
-        <mxGraphModel dx="1885" dy="157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1783" dy="139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -89,7 +89,7 @@
                         <mxRectangle x="120" y="80" width="60" height="26" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="it_u6nlgLjY1DbaPdBps-2" value="・成績ID（PK）&#10;・ユーザーID（FK）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="it_u6nlgLjY1DbaPdBps-1" vertex="1">
+                <mxCell id="it_u6nlgLjY1DbaPdBps-2" value="・成績ID（PK）&#10;・ユーザーID（FK）&#10;・寿司ネタカウント数" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="it_u6nlgLjY1DbaPdBps-1" vertex="1">
                     <mxGeometry y="26" width="200" height="94" as="geometry"/>
                 </mxCell>
                 <mxCell id="it_u6nlgLjY1DbaPdBps-3" value="サービス情報(Services)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
@@ -146,7 +146,7 @@
                         <mxRectangle x="120" y="80" width="60" height="26" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="bH78fWM_Nm4cZ5Oux7yv-16" value="・寿司ネタマークD（PK）&#10;・成績ID（FK）&#10;・寿司ネタID（FK）&#10;・寿司ネタカウント数&#10;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="bH78fWM_Nm4cZ5Oux7yv-15" vertex="1">
+                <mxCell id="bH78fWM_Nm4cZ5Oux7yv-16" value="・寿司ネタマークID（PK）&#10;・成績ID（FK）&#10;・寿司ネタID（FK）&#10;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="bH78fWM_Nm4cZ5Oux7yv-15" vertex="1">
                     <mxGeometry y="26" width="200" height="94" as="geometry"/>
                 </mxCell>
                 <mxCell id="bH78fWM_Nm4cZ5Oux7yv-17" style="edgeStyle=none;html=1;endArrow=ERmany;endFill=0;entryX=1.015;entryY=0.362;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
